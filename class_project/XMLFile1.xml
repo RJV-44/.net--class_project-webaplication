@@ -1,0 +1,42 @@
+﻿<%@ Page="" Language="C#" AutoEventWireup="true" CodeBehind="page.aspx.cs" Inherits="Tast_file.page" %>
+
+	<!DOCTYPE html>
+
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		<head runat="server">
+			<title></title>
+		</head>
+		<body>
+			<form id="form1" runat="server">
+				<div>
+					<p>Hii my name is Aryan</p>
+					<asp:Button runat="server" Text="click Me!!" Height="37px" Width="102px" ID="prient_btn" />
+					<p>Enter farst Number:</p>
+					<textbox>
+        </div>
+				<asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+				<br />
+				<asp:RadioButton ID="RadioButton1" runat="server" Text="Female" />
+				<br />
+				<asp:RadioButton ID="RadioButton2" runat="server" Text="Male" />
+				<br />
+				<br />
+				<asp:CheckBox ID="CheckBox1" runat="server" Text="C" />
+				<p>
+					<asp:CheckBox ID="CheckBox2" runat="server" Text="C#" />
+				</p>
+				<p>
+					<asp:CheckBox ID="CheckBox3" runat="server" Text="JAVA" />
+				</p>
+				<p>
+					<asp:Button ID="Button1" runat="server" Text="hii" />
+				</p>
+				<p>
+					<asp:CheckBox ID="CheckBox4" runat="server" OnCheckedChanged="CheckBox4_CheckedChanged" />
+				</p>
+				<asp:CheckBoxList ID="CheckBoxList1" runat="server">
+				</asp:CheckBoxList>
+				<asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" Height="300px" Width="300px" />
+			</form>
+		</body>
+	</html>
