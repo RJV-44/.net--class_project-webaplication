@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<advetirsments>
+	<Ad>
+		<ImageUrl>Image/Tiranga1.jpeg</ImageUrl>
+		<NavigateUrl>https://lms.rku.ac.in/login/canvas</NavigateUrl>
+		<AlternateText>google</AlternateText>
+		<Impression>3</Impression>
+		<Keyword>daksh,priyanshi</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>Image\image_0.jpg</ImageUrl>
+		<NavigateUrl>https://lms.rku.ac.in/login/canvas</NavigateUrl>
+		<AlternateText>google</AlternateText>
+		<Impression>3</Impression> <Keyword>daksh,priyanshi</Keyword>
+		</Ad>
+		</advetirsments>
+	
